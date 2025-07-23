@@ -1,0 +1,633 @@
+<tt:MetadataStream xmlns:tt="http://www.onvif.org/ver10/schema"
+    xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:tns1="http://www.onvif.org/ver10/topics">
+    <tt:VideoAnalytics>
+        <tt:Frame xmlns:tt="http://www.onvif.org/ver10/schema" UtcTime="2025-07-21T22:57:44.916Z">
+            <tt:Object ObjectId="512210">
+                <tt:Appearance velocity="20.34" area="20.48">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.45" top="0.59" right="-0.21" left="-0.28"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="-0.25" y="0.52"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="-0.26" y="0.58"></tt:Point>
+                            <tt:Point x="-0.26" y="0.57"></tt:Point>
+                            <tt:Point x="-0.26" y="0.56"></tt:Point>
+                            <tt:Point x="-0.26" y="0.54"></tt:Point>
+                            <tt:Point x="-0.26" y="0.53"></tt:Point>
+                            <tt:Point x="-0.26" y="0.52"></tt:Point>
+                            <tt:Point x="-0.26" y="0.51"></tt:Point>
+                            <tt:Point x="-0.26" y="0.49"></tt:Point>
+                            <tt:Point x="-0.25" y="0.49"></tt:Point>
+                            <tt:Point x="-0.25" y="0.48"></tt:Point>
+                            <tt:Point x="-0.25" y="0.47"></tt:Point>
+                            <tt:Point x="-0.25" y="0.46"></tt:Point>
+                            <tt:Point x="-0.22" y="0.46"></tt:Point>
+                            <tt:Point x="-0.22" y="0.47"></tt:Point>
+                            <tt:Point x="-0.22" y="0.48"></tt:Point>
+                            <tt:Point x="-0.22" y="0.49"></tt:Point>
+                            <tt:Point x="-0.21" y="0.49"></tt:Point>
+                            <tt:Point x="-0.21" y="0.51"></tt:Point>
+                            <tt:Point x="-0.21" y="0.52"></tt:Point>
+                            <tt:Point x="-0.21" y="0.53"></tt:Point>
+                            <tt:Point x="-0.21" y="0.54"></tt:Point>
+                            <tt:Point x="-0.22" y="0.56"></tt:Point>
+                            <tt:Point x="-0.22" y="0.57"></tt:Point>
+                            <tt:Point x="-0.22" y="0.58"></tt:Point>
+                            <tt:Point x="-0.22" y="0.59"></tt:Point>
+                            <tt:Point x="-0.23" y="0.59"></tt:Point>
+                            <tt:Point x="-0.24" y="0.59"></tt:Point>
+                            <tt:Point x="-0.25" y="0.59"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.92</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Truck</tt:Type>
+                                <tt:Likelihood>0.92</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.92">Truck</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.92">Truck</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6321458532898845" lat="36.8439885302237968"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>20.34</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+            <tt:Object ObjectId="512211">
+                <tt:Appearance velocity="29.75" area="5.61">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.07" top="0.18" right="0.37" left="0.28"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="0.32" y="0.13"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="0.28" y="0.12"></tt:Point>
+                            <tt:Point x="0.28" y="0.11"></tt:Point>
+                            <tt:Point x="0.29" y="0.11"></tt:Point>
+                            <tt:Point x="0.29" y="0.10"></tt:Point>
+                            <tt:Point x="0.30" y="0.09"></tt:Point>
+                            <tt:Point x="0.31" y="0.09"></tt:Point>
+                            <tt:Point x="0.32" y="0.08"></tt:Point>
+                            <tt:Point x="0.33" y="0.07"></tt:Point>
+                            <tt:Point x="0.34" y="0.07"></tt:Point>
+                            <tt:Point x="0.35" y="0.07"></tt:Point>
+                            <tt:Point x="0.36" y="0.07"></tt:Point>
+                            <tt:Point x="0.37" y="0.08"></tt:Point>
+                            <tt:Point x="0.37" y="0.14"></tt:Point>
+                            <tt:Point x="0.36" y="0.16"></tt:Point>
+                            <tt:Point x="0.35" y="0.17"></tt:Point>
+                            <tt:Point x="0.34" y="0.17"></tt:Point>
+                            <tt:Point x="0.33" y="0.17"></tt:Point>
+                            <tt:Point x="0.32" y="0.17"></tt:Point>
+                            <tt:Point x="0.31" y="0.17"></tt:Point>
+                            <tt:Point x="0.30" y="0.17"></tt:Point>
+                            <tt:Point x="0.29" y="0.17"></tt:Point>
+                            <tt:Point x="0.29" y="0.16"></tt:Point>
+                            <tt:Point x="0.28" y="0.16"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.98</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Car</tt:Type>
+                                <tt:Likelihood>0.98</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.98">Car</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.98">Car</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6328112972483808" lat="36.8435058497758661"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>29.75</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+        </tt:Frame>
+    </tt:VideoAnalytics>
+    <tt:Extension>
+        <NavigationalData version="1.0">
+            <Latitude>36.8434085646928366</Latitude>
+            <Longitude>238.3664814590441949</Longitude>
+        </NavigationalData>
+    </tt:Extension>
+</tt:MetadataStream>
+
+<tt:MetadataStream xmlns:tt="http://www.onvif.org/ver10/schema"
+    xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:tns1="http://www.onvif.org/ver10/topics">
+    <tt:VideoAnalytics>
+        <tt:Frame xmlns:tt="http://www.onvif.org/ver10/schema" UtcTime="2025-07-21T22:57:44.984Z">
+            <tt:Object ObjectId="512210">
+                <tt:Appearance velocity="20.88" area="19.76">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.45" top="0.59" right="-0.21" left="-0.28"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="-0.25" y="0.52"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="-0.26" y="0.58"></tt:Point>
+                            <tt:Point x="-0.26" y="0.57"></tt:Point>
+                            <tt:Point x="-0.26" y="0.56"></tt:Point>
+                            <tt:Point x="-0.26" y="0.54"></tt:Point>
+                            <tt:Point x="-0.26" y="0.53"></tt:Point>
+                            <tt:Point x="-0.26" y="0.52"></tt:Point>
+                            <tt:Point x="-0.26" y="0.51"></tt:Point>
+                            <tt:Point x="-0.26" y="0.49"></tt:Point>
+                            <tt:Point x="-0.25" y="0.49"></tt:Point>
+                            <tt:Point x="-0.25" y="0.48"></tt:Point>
+                            <tt:Point x="-0.25" y="0.47"></tt:Point>
+                            <tt:Point x="-0.25" y="0.46"></tt:Point>
+                            <tt:Point x="-0.22" y="0.46"></tt:Point>
+                            <tt:Point x="-0.22" y="0.47"></tt:Point>
+                            <tt:Point x="-0.21" y="0.48"></tt:Point>
+                            <tt:Point x="-0.21" y="0.49"></tt:Point>
+                            <tt:Point x="-0.21" y="0.51"></tt:Point>
+                            <tt:Point x="-0.21" y="0.52"></tt:Point>
+                            <tt:Point x="-0.21" y="0.53"></tt:Point>
+                            <tt:Point x="-0.21" y="0.54"></tt:Point>
+                            <tt:Point x="-0.22" y="0.54"></tt:Point>
+                            <tt:Point x="-0.22" y="0.56"></tt:Point>
+                            <tt:Point x="-0.22" y="0.57"></tt:Point>
+                            <tt:Point x="-0.22" y="0.58"></tt:Point>
+                            <tt:Point x="-0.23" y="0.59"></tt:Point>
+                            <tt:Point x="-0.24" y="0.59"></tt:Point>
+                            <tt:Point x="-0.25" y="0.59"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.93</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Truck</tt:Type>
+                                <tt:Likelihood>0.93</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.93">Truck</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.93">Truck</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6321589143250179" lat="36.8439822700307928"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>20.88</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+            <tt:Object ObjectId="512211">
+                <tt:Appearance velocity="29.47" area="5.05">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.08" top="0.19" right="0.35" left="0.26"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="0.30" y="0.14"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="0.26" y="0.13"></tt:Point>
+                            <tt:Point x="0.27" y="0.13"></tt:Point>
+                            <tt:Point x="0.28" y="0.12"></tt:Point>
+                            <tt:Point x="0.28" y="0.11"></tt:Point>
+                            <tt:Point x="0.29" y="0.11"></tt:Point>
+                            <tt:Point x="0.30" y="0.10"></tt:Point>
+                            <tt:Point x="0.30" y="0.09"></tt:Point>
+                            <tt:Point x="0.31" y="0.09"></tt:Point>
+                            <tt:Point x="0.32" y="0.09"></tt:Point>
+                            <tt:Point x="0.33" y="0.09"></tt:Point>
+                            <tt:Point x="0.34" y="0.09"></tt:Point>
+                            <tt:Point x="0.34" y="0.11"></tt:Point>
+                            <tt:Point x="0.34" y="0.12"></tt:Point>
+                            <tt:Point x="0.34" y="0.16"></tt:Point>
+                            <tt:Point x="0.34" y="0.17"></tt:Point>
+                            <tt:Point x="0.33" y="0.18"></tt:Point>
+                            <tt:Point x="0.33" y="0.19"></tt:Point>
+                            <tt:Point x="0.32" y="0.19"></tt:Point>
+                            <tt:Point x="0.31" y="0.19"></tt:Point>
+                            <tt:Point x="0.30" y="0.19"></tt:Point>
+                            <tt:Point x="0.29" y="0.19"></tt:Point>
+                            <tt:Point x="0.28" y="0.19"></tt:Point>
+                            <tt:Point x="0.28" y="0.18"></tt:Point>
+                            <tt:Point x="0.27" y="0.18"></tt:Point>
+                            <tt:Point x="0.26" y="0.17"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.98</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Car</tt:Type>
+                                <tt:Likelihood>0.98</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.98">Car</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.98">Car</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6327952030120372" lat="36.8435153679528327"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>29.47</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+        </tt:Frame>
+    </tt:VideoAnalytics>
+    <tt:Extension>
+        <NavigationalData version="1.0">
+            <Latitude>36.8434085646928366</Latitude>
+            <Longitude>238.3664814590441949</Longitude>
+        </NavigationalData>
+    </tt:Extension>
+</tt:MetadataStream>
+
+<tt:MetadataStream xmlns:tt="http://www.onvif.org/ver10/schema"
+    xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:tns1="http://www.onvif.org/ver10/topics">
+    <tt:VideoAnalytics>
+        <tt:Frame xmlns:tt="http://www.onvif.org/ver10/schema" UtcTime="2025-07-21T22:57:45.052Z">
+            <tt:Object ObjectId="512210">
+                <tt:Appearance velocity="21.41" area="21.37">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.44" top="0.59" right="-0.21" left="-0.28"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="-0.24" y="0.52"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="-0.26" y="0.58"></tt:Point>
+                            <tt:Point x="-0.26" y="0.57"></tt:Point>
+                            <tt:Point x="-0.26" y="0.56"></tt:Point>
+                            <tt:Point x="-0.26" y="0.55"></tt:Point>
+                            <tt:Point x="-0.26" y="0.54"></tt:Point>
+                            <tt:Point x="-0.26" y="0.53"></tt:Point>
+                            <tt:Point x="-0.26" y="0.52"></tt:Point>
+                            <tt:Point x="-0.26" y="0.51"></tt:Point>
+                            <tt:Point x="-0.26" y="0.50"></tt:Point>
+                            <tt:Point x="-0.25" y="0.49"></tt:Point>
+                            <tt:Point x="-0.25" y="0.48"></tt:Point>
+                            <tt:Point x="-0.25" y="0.47"></tt:Point>
+                            <tt:Point x="-0.25" y="0.46"></tt:Point>
+                            <tt:Point x="-0.21" y="0.46"></tt:Point>
+                            <tt:Point x="-0.21" y="0.47"></tt:Point>
+                            <tt:Point x="-0.21" y="0.48"></tt:Point>
+                            <tt:Point x="-0.21" y="0.49"></tt:Point>
+                            <tt:Point x="-0.21" y="0.50"></tt:Point>
+                            <tt:Point x="-0.21" y="0.51"></tt:Point>
+                            <tt:Point x="-0.20" y="0.52"></tt:Point>
+                            <tt:Point x="-0.21" y="0.53"></tt:Point>
+                            <tt:Point x="-0.21" y="0.54"></tt:Point>
+                            <tt:Point x="-0.21" y="0.55"></tt:Point>
+                            <tt:Point x="-0.22" y="0.56"></tt:Point>
+                            <tt:Point x="-0.22" y="0.57"></tt:Point>
+                            <tt:Point x="-0.22" y="0.58"></tt:Point>
+                            <tt:Point x="-0.22" y="0.59"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.93</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Truck</tt:Type>
+                                <tt:Likelihood>0.93</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.93">Truck</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.93">Truck</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6321753040561902" lat="36.8439738284556739"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>21.41</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+            <tt:Object ObjectId="512211">
+                <tt:Appearance velocity="29.05" area="5.35">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.11" top="0.21" right="0.33" left="0.24"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="0.28" y="0.16"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="0.24" y="0.16"></tt:Point>
+                            <tt:Point x="0.24" y="0.15"></tt:Point>
+                            <tt:Point x="0.25" y="0.14"></tt:Point>
+                            <tt:Point x="0.26" y="0.14"></tt:Point>
+                            <tt:Point x="0.26" y="0.13"></tt:Point>
+                            <tt:Point x="0.27" y="0.13"></tt:Point>
+                            <tt:Point x="0.28" y="0.12"></tt:Point>
+                            <tt:Point x="0.29" y="0.11"></tt:Point>
+                            <tt:Point x="0.30" y="0.11"></tt:Point>
+                            <tt:Point x="0.31" y="0.11"></tt:Point>
+                            <tt:Point x="0.32" y="0.11"></tt:Point>
+                            <tt:Point x="0.32" y="0.12"></tt:Point>
+                            <tt:Point x="0.32" y="0.13"></tt:Point>
+                            <tt:Point x="0.32" y="0.17"></tt:Point>
+                            <tt:Point x="0.32" y="0.19"></tt:Point>
+                            <tt:Point x="0.31" y="0.21"></tt:Point>
+                            <tt:Point x="0.30" y="0.21"></tt:Point>
+                            <tt:Point x="0.29" y="0.21"></tt:Point>
+                            <tt:Point x="0.28" y="0.21"></tt:Point>
+                            <tt:Point x="0.27" y="0.21"></tt:Point>
+                            <tt:Point x="0.26" y="0.20"></tt:Point>
+                            <tt:Point x="0.25" y="0.19"></tt:Point>
+                            <tt:Point x="0.24" y="0.19"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.98</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Car</tt:Type>
+                                <tt:Likelihood>0.98</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.98">Car</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.98">Car</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6327774015359040" lat="36.8435242323884182"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>29.05</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+        </tt:Frame>
+    </tt:VideoAnalytics>
+    <tt:Extension>
+        <NavigationalData version="1.0">
+            <Latitude>36.8434085646928366</Latitude>
+            <Longitude>238.3664814590441949</Longitude>
+        </NavigationalData>
+    </tt:Extension>
+</tt:MetadataStream>
+
+<tt:MetadataStream xmlns:tt="http://www.onvif.org/ver10/schema"
+    xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:tns1="http://www.onvif.org/ver10/topics">
+    <tt:VideoAnalytics>
+        <tt:Frame xmlns:tt="http://www.onvif.org/ver10/schema" UtcTime="2025-07-21T22:57:45.188Z">
+            <tt:Object ObjectId="512210">
+                <tt:Appearance velocity="21.94" area="21.24">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.43" top="0.58" right="-0.21" left="-0.27"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="-0.24" y="0.51"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="-0.26" y="0.57"></tt:Point>
+                            <tt:Point x="-0.26" y="0.56"></tt:Point>
+                            <tt:Point x="-0.26" y="0.55"></tt:Point>
+                            <tt:Point x="-0.26" y="0.54"></tt:Point>
+                            <tt:Point x="-0.26" y="0.53"></tt:Point>
+                            <tt:Point x="-0.26" y="0.52"></tt:Point>
+                            <tt:Point x="-0.26" y="0.51"></tt:Point>
+                            <tt:Point x="-0.26" y="0.50"></tt:Point>
+                            <tt:Point x="-0.26" y="0.49"></tt:Point>
+                            <tt:Point x="-0.25" y="0.48"></tt:Point>
+                            <tt:Point x="-0.25" y="0.47"></tt:Point>
+                            <tt:Point x="-0.25" y="0.46"></tt:Point>
+                            <tt:Point x="-0.24" y="0.44"></tt:Point>
+                            <tt:Point x="-0.21" y="0.44"></tt:Point>
+                            <tt:Point x="-0.21" y="0.46"></tt:Point>
+                            <tt:Point x="-0.21" y="0.47"></tt:Point>
+                            <tt:Point x="-0.20" y="0.48"></tt:Point>
+                            <tt:Point x="-0.20" y="0.49"></tt:Point>
+                            <tt:Point x="-0.20" y="0.50"></tt:Point>
+                            <tt:Point x="-0.20" y="0.51"></tt:Point>
+                            <tt:Point x="-0.20" y="0.52"></tt:Point>
+                            <tt:Point x="-0.21" y="0.53"></tt:Point>
+                            <tt:Point x="-0.21" y="0.54"></tt:Point>
+                            <tt:Point x="-0.21" y="0.55"></tt:Point>
+                            <tt:Point x="-0.21" y="0.56"></tt:Point>
+                            <tt:Point x="-0.22" y="0.57"></tt:Point>
+                            <tt:Point x="-0.22" y="0.58"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.88</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Truck</tt:Type>
+                                <tt:Likelihood>0.88</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.88">Truck</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.88">Truck</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6322008475786873" lat="36.8439605784184465"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>21.94</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+            <tt:Object ObjectId="512211">
+                <tt:Appearance velocity="28.59" area="4.82">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.14" top="0.24" right="0.29" left="0.21"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="0.25" y="0.19"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="0.21" y="0.18"></tt:Point>
+                            <tt:Point x="0.22" y="0.18"></tt:Point>
+                            <tt:Point x="0.23" y="0.17"></tt:Point>
+                            <tt:Point x="0.24" y="0.16"></tt:Point>
+                            <tt:Point x="0.25" y="0.16"></tt:Point>
+                            <tt:Point x="0.25" y="0.15"></tt:Point>
+                            <tt:Point x="0.26" y="0.14"></tt:Point>
+                            <tt:Point x="0.27" y="0.14"></tt:Point>
+                            <tt:Point x="0.28" y="0.14"></tt:Point>
+                            <tt:Point x="0.28" y="0.15"></tt:Point>
+                            <tt:Point x="0.28" y="0.16"></tt:Point>
+                            <tt:Point x="0.28" y="0.17"></tt:Point>
+                            <tt:Point x="0.28" y="0.21"></tt:Point>
+                            <tt:Point x="0.28" y="0.22"></tt:Point>
+                            <tt:Point x="0.27" y="0.23"></tt:Point>
+                            <tt:Point x="0.27" y="0.24"></tt:Point>
+                            <tt:Point x="0.26" y="0.24"></tt:Point>
+                            <tt:Point x="0.25" y="0.24"></tt:Point>
+                            <tt:Point x="0.24" y="0.24"></tt:Point>
+                            <tt:Point x="0.23" y="0.23"></tt:Point>
+                            <tt:Point x="0.22" y="0.23"></tt:Point>
+                            <tt:Point x="0.21" y="0.22"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.99</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Car</tt:Type>
+                                <tt:Likelihood>0.99</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.99">Car</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.99">Car</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6327413126951882" lat="36.8435431920548950"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>28.59</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+        </tt:Frame>
+    </tt:VideoAnalytics>
+    <tt:Extension>
+        <NavigationalData version="1.0">
+            <Latitude>36.8434085646928366</Latitude>
+            <Longitude>238.3664814590441949</Longitude>
+        </NavigationalData>
+    </tt:Extension>
+</tt:MetadataStream>
+
+<tt:MetadataStream xmlns:tt="http://www.onvif.org/ver10/schema"
+    xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:tns1="http://www.onvif.org/ver10/topics">
+    <tt:VideoAnalytics>
+        <tt:Frame xmlns:tt="http://www.onvif.org/ver10/schema" UtcTime="2025-07-21T22:57:45.248Z">
+            <tt:Object ObjectId="512210">
+                <tt:Appearance velocity="21.83" area="21.24">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.43" top="0.58" right="-0.20" left="-0.27"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="-0.24" y="0.51"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="-0.26" y="0.57"></tt:Point>
+                            <tt:Point x="-0.26" y="0.56"></tt:Point>
+                            <tt:Point x="-0.26" y="0.55"></tt:Point>
+                            <tt:Point x="-0.26" y="0.54"></tt:Point>
+                            <tt:Point x="-0.26" y="0.53"></tt:Point>
+                            <tt:Point x="-0.26" y="0.52"></tt:Point>
+                            <tt:Point x="-0.26" y="0.51"></tt:Point>
+                            <tt:Point x="-0.26" y="0.50"></tt:Point>
+                            <tt:Point x="-0.25" y="0.49"></tt:Point>
+                            <tt:Point x="-0.25" y="0.48"></tt:Point>
+                            <tt:Point x="-0.25" y="0.47"></tt:Point>
+                            <tt:Point x="-0.24" y="0.46"></tt:Point>
+                            <tt:Point x="-0.24" y="0.44"></tt:Point>
+                            <tt:Point x="-0.22" y="0.44"></tt:Point>
+                            <tt:Point x="-0.21" y="0.44"></tt:Point>
+                            <tt:Point x="-0.21" y="0.46"></tt:Point>
+                            <tt:Point x="-0.20" y="0.47"></tt:Point>
+                            <tt:Point x="-0.20" y="0.48"></tt:Point>
+                            <tt:Point x="-0.20" y="0.49"></tt:Point>
+                            <tt:Point x="-0.20" y="0.50"></tt:Point>
+                            <tt:Point x="-0.20" y="0.51"></tt:Point>
+                            <tt:Point x="-0.20" y="0.52"></tt:Point>
+                            <tt:Point x="-0.20" y="0.53"></tt:Point>
+                            <tt:Point x="-0.21" y="0.54"></tt:Point>
+                            <tt:Point x="-0.21" y="0.55"></tt:Point>
+                            <tt:Point x="-0.21" y="0.56"></tt:Point>
+                            <tt:Point x="-0.22" y="0.57"></tt:Point>
+                            <tt:Point x="-0.22" y="0.58"></tt:Point>
+                            <tt:Point x="-0.23" y="0.58"></tt:Point>
+                            <tt:Point x="-0.24" y="0.58"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.93</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Truck</tt:Type>
+                                <tt:Likelihood>0.93</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.93">Truck</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.93">Truck</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6322142730301579" lat="36.8439536572501680"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>21.83</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+            <tt:Object ObjectId="512211">
+                <tt:Appearance velocity="28.58" area="4.73">
+                    <tt:Shape>
+                        <tt:BoundingBox bottom="0.16" top="0.26" right="0.27" left="0.19"></tt:BoundingBox>
+                        <tt:CenterOfGravity x="0.23" y="0.21"></tt:CenterOfGravity>
+                        <tt:Polygon>
+                            <tt:Point x="0.19" y="0.21"></tt:Point>
+                            <tt:Point x="0.20" y="0.20"></tt:Point>
+                            <tt:Point x="0.20" y="0.19"></tt:Point>
+                            <tt:Point x="0.21" y="0.19"></tt:Point>
+                            <tt:Point x="0.22" y="0.18"></tt:Point>
+                            <tt:Point x="0.23" y="0.18"></tt:Point>
+                            <tt:Point x="0.23" y="0.17"></tt:Point>
+                            <tt:Point x="0.24" y="0.17"></tt:Point>
+                            <tt:Point x="0.25" y="0.17"></tt:Point>
+                            <tt:Point x="0.26" y="0.17"></tt:Point>
+                            <tt:Point x="0.27" y="0.17"></tt:Point>
+                            <tt:Point x="0.27" y="0.18"></tt:Point>
+                            <tt:Point x="0.27" y="0.19"></tt:Point>
+                            <tt:Point x="0.27" y="0.22"></tt:Point>
+                            <tt:Point x="0.26" y="0.24"></tt:Point>
+                            <tt:Point x="0.26" y="0.25"></tt:Point>
+                            <tt:Point x="0.25" y="0.26"></tt:Point>
+                            <tt:Point x="0.24" y="0.26"></tt:Point>
+                            <tt:Point x="0.23" y="0.26"></tt:Point>
+                            <tt:Point x="0.22" y="0.25"></tt:Point>
+                            <tt:Point x="0.21" y="0.24"></tt:Point>
+                            <tt:Point x="0.20" y="0.24"></tt:Point>
+                        </tt:Polygon>
+                    </tt:Shape>
+                    <tt:Class>
+                        <tt:ClassCandidate>
+                            <tt:Type>Vehical</tt:Type>
+                            <tt:Likelihood>0.99</tt:Likelihood>
+                        </tt:ClassCandidate>
+                        <tt:Extension>
+                            <tt:OtherTypes>
+                                <tt:Type>Car</tt:Type>
+                                <tt:Likelihood>0.99</tt:Likelihood>
+                            </tt:OtherTypes>
+                        </tt:Extension>
+                        <tt:Type Likelihood="0.99">Car</tt:Type>
+                    </tt:Class>
+                    <tt:VehicleInfo>
+                        <tt:Type Likelihood="0.99">Car</tt:Type>
+                    </tt:VehicleInfo>
+                    <tt:GeoLocation lon="-121.6327234143032996" lat="36.8435525844930822"
+                        elevation="0.50"></tt:GeoLocation>
+                </tt:Appearance>
+                <tt:Behaviour>
+                    <tt:Speed>28.58</tt:Speed>
+                </tt:Behaviour>
+            </tt:Object>
+        </tt:Frame>
+    </tt:VideoAnalytics>
+    <tt:Extension>
+        <NavigationalData version="1.0">
+            <Latitude>36.8434085646928366</Latitude>
+            <Longitude>238.3664814590441949</Longitude>
+        </NavigationalData>
+    </tt:Extension>
+</tt:MetadataStream>
