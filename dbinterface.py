@@ -2,36 +2,6 @@ from typing import Dict
 import sqlite3
 from camera_object import CameraObject
 
-
-# class CameraObject:
-#     def __init__(self, id, timestamp, detectedType, lane, speed, idle):
-#         self.id             = id
-#         self.timestamp      = timestamp
-#         self.detectedType   = detectedType
-#         self.lane           = lane
-#         self.speed          = speed
-#         self.idle           = idle
-#         self.numberOfUpdates = 1
-#         self.modified       = 1
-
-#     def add_data(self, objectData):
-#         self.numberOfUpdates += 1
-#         self.modified = 1
-#         self.detectedType = self.get_running_average(self.detectedType, objectData["type"])
-#         if objectData["lane"] >= 0:
-#             self.lane = self.get_running_average(self.lane, objectData["lane"])
-#         self.speed = self.get_running_average(self.speed, objectData["speed"])
-#         self.idle = self.get_running_average(self.idle, objectData["idle"])
-        
-#     def get_running_average(self, oldValue, newValue):
-#         return (oldValue * ((self.numberOfUpdates-1)/self.numberOfUpdates)) + (newValue / self.numberOfUpdates)
-
-#     def get_data(self):
-#         return self.timestamp, round(self.detectedType), round(self.lane), round(self.speed), round(self.idle)
-    
-#     def __str__(self):
-#         return f"{self.id}: {self.timestamp}, {self.detectedType}, lane {self.lane}, {self.speed}, {self.idle}, Updated {self.numberOfUpdates} times"
-
 def add_count(location, direction, lane, timestamp):
     conn = sqlite3.connect("lanecounts.db")
 
