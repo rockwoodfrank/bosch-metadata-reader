@@ -25,13 +25,20 @@ class CameraObject():
         # Bottom, top, right, left
         self.boundingBox = (0,0,0,0)
         self.centerOfGravity = (0,0)
-        self.detectedType = "None"
-        self.detectionCertainty = 0.0
-        self.speed = 0.0
         self.numberOfUpdates = 1
-        self.lane = -1
         self.modified = 1
         self.idle = 0
+        # path?
+
+        # DATA TO RETURN TO OTHER PROGRAMS
+        # timestamp
+        self.timeElapsed = 0
+        # TODO: make this more flexible
+        self.detectedType = "None"
+        self.detectionCertainty = 0.0
+        # TODO: Change to zero? make zones start at 1?
+        self.lane = -1
+        self.speed = 0.0
 
     
     def merge_object(self, oldObject: 'CameraObject'):
@@ -64,8 +71,15 @@ class CameraObject():
         elif type(objectData) == CameraObject:
             self.merge_object(objectData)
 
-    def get_data(self):
-        return self.timestamp.timestamp() * 1000, self.detectedType, round(self.lane), round(self.speed), self.idle
+    def get_data(self) -> dict:
+        dataDict = {}
+        dataDict["timestamp"] = self.timestamp
+        dataDict["time_elapsed"] = self.timeElapsed
+        dataDict["detected_type"] = self.detectedType
+        dataDict["detection_certainty"] = self.detectionCertainty
+        dataDict["lane"] = self.lane
+        dataDict["speed"] = self.speed
+        return dataDict
         
 
     def __str__(self):

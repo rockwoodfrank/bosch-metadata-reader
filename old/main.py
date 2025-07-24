@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from objsParse import parse_metadata
-from dbinterface import pushObjectData
+from collectData import pushObjectData
 
 from readConfig import readAddress
 

@@ -1,6 +1,6 @@
 from await_data import await_data
 from objsParse import parse_metadata
-from dbinterface import pushObjectData
+from collectData import pushObjectData
 
 def main():
     while True:
