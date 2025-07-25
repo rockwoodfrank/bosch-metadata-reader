@@ -25,7 +25,7 @@ def linegraph(start_time: datetime, end_time: datetime, resolution):
     sortedData = np.zeros((4, xWidth))
     for bin in laneData:
         bindex = int((bin[3] - start_time_ms) / (interval * 1000)) - 1
-        sortedData[(0 if bin[1] == 'NB' else 2) + (bin[2]-1)][bindex] = bin[5]
+        sortedData[int((0 if bin[1] == 'NB' else 2) + (bin[2]-1))][bindex] = bin[5]
 
     for dataBin in sortedData:
         plt.plot(dataBin)

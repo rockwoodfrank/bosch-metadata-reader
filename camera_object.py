@@ -77,7 +77,7 @@ class CameraObject():
         dataDict["time_elapsed"] = self.timeElapsed
         dataDict["detected_type"] = self.detectedType
         dataDict["detection_certainty"] = self.detectionCertainty
-        dataDict["lane"] = self.lane
+        dataDict["lane"] = round(self.lane)
         dataDict["speed"] = self.speed
         return dataDict
         

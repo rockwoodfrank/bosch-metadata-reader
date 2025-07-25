@@ -12,10 +12,10 @@ from readConfig import readAddress
 from pointSearch import setLanes, whichLane
 
 def stream_data(address, name, threshold, whichLane, dataPushFunction = add_count):
-    command = f"ffmpeg -i rtsp://{address}/rtsp_tunnel?p=0&line=1&inst=1&vcd=2 -map 0:d -c copy -copy_unknown -f data -"
+    command = f'ffmpeg -i "rtsp://{address}/rtsp_tunnel?p=0&line=1&inst=1&vcd=2" -map 0:d -c copy -copy_unknown -f data -'
 
     with subprocess.Popen(
-        command.split(), stdout=subprocess.PIPE
+        command, stdout=subprocess.PIPE, shell=True
     ) as process:
         def poll_and_read():
             incomplete_packet = True
